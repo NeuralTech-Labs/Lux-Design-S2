@@ -62,6 +62,10 @@ luxai-s2 path/to/bot/main.py path/to/bot/main.py -v 2 -o replay.json
 
 This will turn on logging to level 2, and store the replay file at `replay.json`. For documentation on the luxai-s2 tool, see the [tool's README](https://github.com/Lux-AI-Challenge/Lux-Design-S2/tree/main/luxai_s2/luxai_runner/README.md), which also includes details on how to run a local tournament to mass evaluate your agents. To watch the replay, upload `replay.json` to https://s2vis.lux-ai.org/ (or change `-o replay.json` to `-o replay.html`)
 
+### Understanding the environment
+
+A nice place to start could be [here](https://www.lux-ai.org/specs-s2)
+
 ### Starter Kits
 
 Each supported programming language/solution type has its own starter kit, you can find general [API documentation here](https://github.com/Lux-AI-Challenge/Lux-Design-S2/tree/main/kits).
